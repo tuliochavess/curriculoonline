@@ -1,0 +1,99 @@
+footer {
+  max-width: 74rem;
+  margin: 0 auto 44px auto;
+  display: flex;
+  border-top: 1px solid rgba(0, 77, 187, 0.5);
+  font-family: var(--type-second);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footerMobile {
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 24px;
+}
+
+.logo {
+  margin-top: 72px;
+}
+
+.first_box {
+  margin: 72px auto 0px auto;
+}
+
+.second_box {
+  margin-right: 180px;
+  margin-top: 72px;
+  display: grid;
+}
+
+.email,
+.github,
+.linkedin {
+  margin-top: 16px;
+}
+
+.whatsapp {
+  display: flex;
+  align-content: center;
+}
+.whatsapp::before {
+  margin-right: 8px;
+  content: url("../Assets/whatsapp-square.svg");
+}
+
+.email {
+  display: flex;
+  align-content: center;
+}
+.email::before {
+  margin-right: 8px;
+  content: url("../Assets/envelope.svg");
+}
+
+.curriculo {
+  display: flex;
+  align-content: center;
+}
+.curriculo::before {
+  margin-right: 8px;
+  content: url("../Assets/file-user.svg");
+}
+
+.github {
+  display: flex;
+  align-content: center;
+}
+.github::before {
+  margin-right: 8px;
+  content: url("../Assets/github-square.svg");
+}
+
+.linkedin {
+  display: flex;
+  align-content: center;
+}
+.linkedin::before {
+  margin-right: 8px;
+  content: url("../Assets/linkedin.svg");
+}
+
+img.logoMobile {
+  margin-top: 24px;
+}
+
+.firtsBoxMobile {
+  margin-top: -74px;
+  grid-column: 1;
+}
+
+.secondBoxMobile {
+  margin-top: 50px;
+  margin-left: 48px;
+  grid-column: 2;
+  grid-row: 1;
+}
