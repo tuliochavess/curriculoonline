@@ -12,6 +12,7 @@ import UseMedia from "../Hooks/UseMedia";
 import Habilidades from "../Contents/Habilidades";
 import Formacao from "../Contents/Formacao";
 import Cursos from "../Contents/Cursos";
+import Historico from "../Contents/Historico";
 
 const Home = () => {
   const mobile = UseMedia("(max-width: 40rem)");
@@ -59,6 +60,7 @@ const Home = () => {
       <Habilidades />
       <Formacao />
       <Cursos />
+      <Historico />
     </>
   );
 };
