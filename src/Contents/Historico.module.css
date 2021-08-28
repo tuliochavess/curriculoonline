@@ -1,8 +1,144 @@
 .historico {
-    max-width: 74rem;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 24px;
-    border-bottom: 1px solid rgba(0, 77, 187, 0.5);
+  max-width: 74rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+  border-bottom: 1px solid rgba(0, 77, 187, 0.5);
+}
+
+.historico h1 {
+  margin-bottom: 64px;
+}
+
+.historico .box1 {
+  background: #ffffff;
+  border: 1px solid rgba(0, 24, 58, 0.16);
+  box-sizing: border-box;
+  grid-column: 1 / 7;
+  padding: 24px 32px;
+}
+
+.historico .box2 {
+  background: #ffffff;
+  border: 1px solid rgba(0, 24, 58, 0.16);
+  box-sizing: border-box;
+  grid-column: 7 / 13;
+  padding: 24px 32px;
+}
+
+.historico .box1 img,
+.historico .box2 img {
+  max-height: 46px;
+}
+
+.historico .box1 h2,
+.historico .box2 h2 {
+  margin-top: 24px;
+  font-family: var(--type-second);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.historico .box1 p,
+.historico .box2 p {
+  margin-top: 12px;
+  font-family: var(--type-second);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.historico .box1 p.data,
+.historico .box2 p.data {
+  margin-top: 16px;
+  font-family: var(--type-second);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.historico .box1 p.data::before,
+.historico .box2 p.data::before {
+  content: url("../Assets/formacao/data.svg");
+  margin-right: 8px;
+}
+
+.historico .accordeonShow {
+  grid-column: 1 / 13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+}
+
+.historico .verTodos {
+  font-family: var(--type-second);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5b98f0;
+  cursor: pointer;
+  grid-column: 1 / 13;
+  margin-bottom: 100px;
+}
+
+.historico .verTodos::after {
+  content: url("../Assets/caret-down.svg");
+  margin-left: 8px;
+}
+
+.accordeonDontShow {
+  display: none;
+}
+
+@media (max-width: 40rem) {
+  .historico {
+    gap: 12px;
   }
+  .historico h1 {
+    margin-top: 64px;
+    margin-bottom: 32px;
+    font-family: var(--type-first);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .historico .box1,
+  .historico .box2 {
+    grid-column: 1 / 13;
+    padding: 16px 12px;
+  }
+
+  .historico .box1 img,
+  .historico .box2 img {
+    max-height: 32px;
+  }
+
+  .historico .box1 h2,
+  .historico .box2 h2 {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .historico .box1 p,
+  .historico .box2 p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .historico .verTodos {
+    margin-bottom: 40px;
+  }
+
+  span {
+    gap: 12px;
+  }
+}

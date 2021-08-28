@@ -123,6 +123,12 @@ span {
   .verTodos {
     margin-bottom: 40px;
   }
+  .formacao {
+    gap: 12px;
+  }
+  .formacao h1 {
+    margin-bottom: 32px;
+  }
 }
 
 .verTodos::after {

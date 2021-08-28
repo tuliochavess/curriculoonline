@@ -7,6 +7,12 @@
   border-bottom: 1px solid rgba(0, 77, 187, 0.5);
 }
 
+@media (max-width: 40rem) {
+  .cursos {
+    gap: 12px;
+  }
+}
+
 h1 {
   grid-column: 1 / 13;
   margin-top: 100px;
@@ -54,6 +60,12 @@ span {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 24px;
+}
+
+@media (max-width: 40rem) {
+  span {
+    gap: 12px !important;
+  }
 }
 
 .box3 {

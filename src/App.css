@@ -6,6 +6,7 @@ body {
   --type-first: Montserrat, Arial, sans-serif;
   --type-second: Open Sans, sans-serif;
   color: #00183a;
+  -webkit-tap-highlight-color: transparent;
 }
 
 h1,

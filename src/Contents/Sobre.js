@@ -66,7 +66,7 @@ const Sobre = () => {
             <img src={email} alt="email" />
             tuliochavess@gmail.com
           </a>
-          <a href="https://www.google.com/" target="blank">
+          <a href="https://drive.google.com/file/d/12n4RbXTZfdHL9ztw-OIG-diSpVDR9yXP/view?usp=sharing" target="blank">
             <img src={curriculo} alt="curriculo" />
             Currículo
           </a>

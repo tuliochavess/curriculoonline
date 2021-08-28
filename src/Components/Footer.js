@@ -35,7 +35,7 @@ const Footer = () => {
       </div>
       <div className={mobile ? styles.secondBoxMobile : styles.second_box}>
         <a
-          href="https://www.google.com/"
+          href="https://drive.google.com/file/d/12n4RbXTZfdHL9ztw-OIG-diSpVDR9yXP/view?usp=sharing"
           className={styles.curriculo}
           target="blank"
         >

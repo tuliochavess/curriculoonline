@@ -14,7 +14,10 @@ const Formacao = () => {
     <section className={styles.formacao}>
       <h1 className={mobile ? styles.h1Mobile : ""}>FORMAÇÃO</h1>
 
-      <div className={mobile ? styles.boxNotShow : styles.box1}>
+      <div
+        className={mobile ? styles.boxNotShow : styles.box1}
+        title="Tecnólogo em Análise e Desenvolvimento de Sistemas"
+      >
         <div className={styles.logoFaculdade}>
           <img src={unopar} alt="UNOPAR" />
         </div>
@@ -28,7 +31,10 @@ const Formacao = () => {
         </div>
       </div>
 
-      <div className={mobile ? styles.box1Mobile : styles.boxNotShow}>
+      <div
+        className={mobile ? styles.box1Mobile : styles.boxNotShow}
+        title="Tecnólogo em Análise e Desenvolvimento de Sistemas"
+      >
         <h3>Tecnólogo em Análise e Desenvolvi...</h3>
         <div className={styles.imgEdados}>
           <img src={unoparM} alt="UNOPAR" />
@@ -73,7 +79,10 @@ const Formacao = () => {
       <span
         className={accordeon ? styles.accordeonShow : styles.accordeonDontShow}
       >
-        <div className={mobile ? styles.boxNotShow : styles.box3}>
+        <div
+          className={mobile ? styles.boxNotShow : styles.box3}
+          title="Tecnólogo em Redes de Computadores"
+        >
           <div className={styles.logoFaculdade}>
             <img src={fumec} alt="FUMEC" />
           </div>
@@ -87,7 +96,10 @@ const Formacao = () => {
           </div>
         </div>
 
-        <div className={mobile ? styles.box1Mobile : styles.boxNotShow}>
+        <div
+          className={mobile ? styles.box1Mobile : styles.boxNotShow}
+          title="Tecnólogo em Redes de Computadores"
+        >
           <h3>Tecnólogo em Redes de Computado...</h3>
           <div className={styles.imgEdados}>
             <img src={fumecM} alt="Fumec" />
@@ -101,7 +113,10 @@ const Formacao = () => {
           </div>
         </div>
 
-        <div className={mobile ? styles.boxNotShow : styles.box4}>
+        <div
+          className={mobile ? styles.boxNotShow : styles.box4}
+          title="Bacharel em Engenharia Bioenergética"
+        >
           <div className={styles.logoFaculdade}>
             <img src={fumec} alt="FUMEC" />
           </div>
@@ -115,7 +130,10 @@ const Formacao = () => {
           </div>
         </div>
 
-        <div className={mobile ? styles.box1Mobile : styles.boxNotShow}>
+        <div
+          className={mobile ? styles.box1Mobile : styles.boxNotShow}
+          title="Bacharel em Engenharia Bioenergética"
+        >
           <h3>Bacharel em Engenharia Bioenergé...</h3>
           <div className={styles.imgEdados}>
             <img src={fumecM} alt="Fumec" />
