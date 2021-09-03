@@ -9,9 +9,17 @@ const Header = () => {
   const [isHome, setIsHome] = useState("1");
   const mobile = UseMedia("(max-width: 40rem)");
   const [showUl, setShowUl] = React.useState(false);
-  
+
+  function closeUl() {
+    setTimeout(() => {
+      if (showUl) {
+        setShowUl(false);
+      }
+    });
+  }
+
   return (
-    <header className={styles.header} onClick={showUl ? () => setShowUl(false) : null}>
+    <header className={styles.header} onBlur={closeUl}>
       <nav>
         <Link to="/">
           <img

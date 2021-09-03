@@ -146,7 +146,8 @@ span {
   margin-right: 8px;
 }
 
-.verTodos {
+.verTodos,
+.verTodosUp {
   font-family: var(--type-second);
   font-style: normal;
   font-weight: bold;
@@ -158,7 +159,8 @@ span {
   margin-bottom: 32px;
 }
 
-.verTodosUltimo {
+.verTodosUltimo,
+.verTodosUltimoUp {
   font-family: var(--type-second);
   font-style: normal;
   font-weight: bold;
@@ -171,11 +173,13 @@ span {
 }
 
 @media (max-width: 40rem) {
-  .verTodos {
+  .verTodos,
+  .verTodosUp {
     border-bottom: 1px solid rgba(0, 77, 187, 0.25);
     padding-bottom: 48px;
   }
-  .verTodosUltimo {
+  .verTodosUltimo,
+  .verTodosUltimoUp {
     margin-bottom: 40px;
   }
 }
@@ -183,6 +187,12 @@ span {
 .verTodos::after,
 .verTodosUltimo::after {
   content: url("../Assets/caret-down.svg");
+  margin-left: 8px;
+}
+
+.verTodosUp::after,
+.verTodosUltimoUp::after {
+  content: url("../Assets/caret-up.svg");
   margin-left: 8px;
 }
 

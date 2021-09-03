@@ -157,7 +157,7 @@ const Cursos = () => {
           <img src={udemy} alt="Udemy" />
         </div>
         <div className={styles.infoFaculdade}>
-          <h3>Understanding TypeScript ...</h3>
+          <h3>Understanding TypeScript - 2021...</h3>
           <div className={styles.dataFaculdade}>
             <p className={styles.nome}>Udemy</p>
             <p className={styles.tempo}>15 horas</p>
@@ -175,7 +175,7 @@ const Cursos = () => {
         }}
         title="Understanding TypeScript 2021 Edition"
       >
-        <h3>Understanding TypeScript ...</h3>
+        <h3>Understanding TypeScript - 2021 Edition</h3>
         <div className={styles.imgEdados}>
           <img src={udemyM} alt="Udemy" />
           <div className={styles.dados}>
@@ -265,7 +265,7 @@ const Cursos = () => {
           }}
           title="Microsoft SharePoint para Administradores"
         >
-          <h3>Microsoft SharePoint para Admi...</h3>
+          <h3>Microsoft SharePoint para Administradores</h3>
           <div className={styles.imgEdados}>
             <img src={udemyM} alt="Udemy" />
             <div className={styles.dados}>
@@ -435,7 +435,7 @@ const Cursos = () => {
           }}
           title="Wordpress for Beginners Master Wordpress Quickly"
         >
-          <h3>Wordpress for Beginners Master...</h3>
+          <h3>Wordpress for Beginners - Master Wordpress Quickly</h3>
           <div className={styles.imgEdados}>
             <img src={udemyM} alt="Udemy" />
             <div className={styles.dados}>
@@ -479,7 +479,7 @@ const Cursos = () => {
           }}
           title="Curso Desenvolvedor Web Completo + 10 projetos"
         >
-          <h3>Curso Desenvolvedor Web Compl...</h3>
+          <h3>Curso Desenvolvedor Web Completo + 10 projetos</h3>
           <div className={styles.imgEdados}>
             <img src={udemyM} alt="Udemy" />
             <div className={styles.dados}>
@@ -494,7 +494,7 @@ const Cursos = () => {
       </span>
       {/* aqui termina o span */}
 
-      <h5 className={styles.verTodos} onClick={() => setAccordeon(!accordeon)}>
+      <h5 className={accordeon ? styles.verTodosUp : styles.verTodos} onClick={() => setAccordeon(!accordeon)}>
         Ver todos
       </h5>
       <h6 className={mobile ? styles.h6MobileDesi : ""}>Design</h6>
@@ -684,7 +684,7 @@ const Cursos = () => {
             <img src={udemy} alt="Udemy" />
           </div>
           <div className={styles.infoFaculdade}>
-            <h3>Learn Figma UI/UX Design ...</h3>
+            <h3>Learn Figma UI/UX Design Essenti...</h3>
             <div className={styles.dataFaculdade}>
               <p className={styles.nome}>Udemy</p>
               <p className={styles.tempo}>04 horas</p>
@@ -701,7 +701,7 @@ const Cursos = () => {
             window.open("https://www.udemy.com/certificate/UC-2a26a6db-dd68-4e0b-ad9a-008be0c10729/", "_blank");
           }}
         >
-          <h3>Learn Figma UI/UX Design ...</h3>
+          <h3>Learn Figma UI/UX Design Essential Training</h3>
           <div className={styles.imgEdados}>
             <img src={udemyM} alt="Udemy" />
             <div className={styles.dados}>
@@ -716,7 +716,7 @@ const Cursos = () => {
       </span>
 
       <h5
-        className={styles.verTodosUltimo}
+        className={accordeonDes ? styles.verTodosUltimoUp : styles.verTodosUltimo}
         onClick={() => setAccordeonDes(!accordeonDes)}
       >
         Ver todos

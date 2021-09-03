@@ -1,0 +1,141 @@
+.contato {
+  max-width: 74rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+}
+
+.contato h4 {
+  margin-top: 64px;
+  font-family: var(--type-first);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  grid-column: 1 / 13;
+}
+
+.contato .fisrtA,
+.contato .secondA {
+  background: #004dbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: var(--type-first);
+  color: #fbfbff;
+  padding: 16px 0px;
+}
+
+.contato .fisrtA {
+  grid-column: 1 / 4;
+}
+
+.contato .secondA {
+  grid-column: 4 / 7;
+}
+
+.contato .firstBox {
+  margin-top: 12px;
+  grid-column: 1 / 5;
+  display: grid;
+}
+
+.contato .secondBox {
+  margin-top: 12px;
+  grid-column: 5 / 7;
+}
+
+.contato .firstBox a,
+.contato .secondBox a {
+  font-family: var(--type-second);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.contato .user,
+.contato .adress,
+.contato .email,
+.contato .whatsapp,
+.contato .curriculo,
+.contato .github,
+.contato .linkedin {
+  display: flex;
+  align-items: center;
+}
+
+.contato .user::before {
+  content: url("../Assets/user.svg");
+  margin-right: 8px;
+}
+
+.contato .adress::before {
+  content: url("../Assets/map.svg");
+  margin-right: 8px;
+}
+
+.contato .email::before {
+  content: url("../Assets/envelope.svg");
+  margin-right: 8px;
+}
+
+.contato .whatsapp::before {
+  content: url("../Assets/whatsapp-square.svg");
+  margin-right: 8px;
+}
+
+.contato .curriculo::before {
+  content: url("../Assets/file-user.svg");
+  margin-right: 8px;
+}
+
+.contato .github::before {
+  content: url("../Assets/github-square.svg");
+  margin-right: 8px;
+}
+
+.contato .linkedin::before {
+  content: url("../Assets/linkedin.svg");
+  margin-right: 8px;
+}
+
+@media (max-width: 40rem) {
+  .contato h1 {
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 48px;
+  }
+
+  .contato h4 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 24px;
+  }
+
+  .contato .fisrtA,
+  .contato .secondA {
+    grid-column: 1 / 13;
+  }
+
+  .contato .firstBox,
+  .contato .secondBox {
+    grid-column: 1 / 13;
+  }
+
+  .contato .secondBox {
+    margin-top: -20px;
+  }
+
+  .contato .firstBox a,
+  .contato .secondBox a {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

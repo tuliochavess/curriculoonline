@@ -1,0 +1,131 @@
+.projetos,
+.projetos .boxDevProjetos, 
+.projetos .boxDesktop,
+.projetos .boxMobile {
+  max-width: 74rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+}
+
+.projetos .boxDevProjetos,
+.projetos .boxDesktop,
+.projetos .boxMobile {
+  grid-column: 1 / 13;
+}
+
+.projetos h6 {
+  margin-top: 40px;
+  font-family: var(--type-second);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  grid-column: 1 / 13;
+}
+
+.projetos .interface {
+  margin-top: 64px;
+}
+
+.projetos img {
+  border: 1px solid rgba(0, 24, 58, 0.16);
+  box-sizing: border-box;
+}
+
+.projetos img:hover {
+  border: 2px solid rgba(91, 152, 240, 0.64);
+  box-sizing: border-box;
+}
+
+.projetos .boxDevProjetos .img1 {
+  grid-column: 1 / 7;
+}
+.projetos .boxDevProjetos .img2 {
+  grid-column: 7 / 13;
+}
+
+.projetos .boxDesktop .img1,
+.projetos .boxMobile .img1 {
+  grid-column: 1 / 5;
+}
+.projetos .boxDesktop .img2,
+.projetos .boxMobile .img2 {
+  grid-column: 5 / 9;
+}
+.projetos .boxDesktop .img3,
+.projetos .boxMobile .img3 {
+  grid-column: 9 / 13;
+}
+
+.projetos .accordeonDontShow {
+  display: none;
+}
+
+.projetos .verTodos,
+.projetos .verTodosUp {
+  font-family: var(--type-second);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #5b98f0;
+  grid-column: 1 / 13;
+  cursor: pointer;
+}
+
+.projetos .verTodos::after {
+  content: url("../Assets/caret-down.svg");
+  margin-left: 8px;
+}
+.projetos .verTodosUp::after {
+  content: url("../Assets/caret-up.svg");
+  margin-left: 8px;
+}
+
+@media (max-width: 40rem) {
+  .projetos .boxDevProjetos,
+  .projetos .boxDesktop,
+  .projetos .boxMobile {
+    gap: 12px;
+  }
+
+  .projetos h1 {
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .projetos h6 {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .projetos img {
+    width: 328px;
+    height: 195px;
+  }
+  
+  .projetos .boxDevProjetos .img1, 
+  .projetos .boxDevProjetos .img2,
+  .projetos .boxDesktop .img1,
+  .projetos .boxDesktop .img2,
+  .projetos .boxDesktop .img3,
+  .projetos .boxMobile .img1,
+  .projetos .boxMobile .img2,
+  .projetos .boxMobile .img3 {
+    grid-column: 1 / 13;
+  } 
+
+  .projetos .verTodos,
+  .projetos .verTodosUp {
+    border-bottom: 1px solid rgba(0, 77, 187, 0.25);
+    padding-bottom: 40px;
+  }
+
+  .projetos .interface {
+    margin-top: 32px;
+  }
+}

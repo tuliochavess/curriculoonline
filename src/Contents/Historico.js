@@ -135,7 +135,7 @@ realizando manutenções técnicas relativas a Hardware e Software."
         </div>
       </span>
 
-      <h6 className={styles.verTodos} onClick={() => setAccordeon(!accordeon)}>
+      <h6 className={accordeon ? styles.verTodosUp : styles.verTodos} onClick={() => setAccordeon(!accordeon)}>
         Ver todos
       </h6>
     </section>

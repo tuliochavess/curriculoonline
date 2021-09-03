@@ -35,7 +35,7 @@ const Formacao = () => {
         className={mobile ? styles.box1Mobile : styles.boxNotShow}
         title="Tecnólogo em Análise e Desenvolvimento de Sistemas"
       >
-        <h3>Tecnólogo em Análise e Desenvolvi...</h3>
+        <h3>Tecnólogo em Análise e Desenvolvimento de Sistemas</h3>
         <div className={styles.imgEdados}>
           <img src={unoparM} alt="UNOPAR" />
           <div className={styles.dados}>
@@ -100,7 +100,7 @@ const Formacao = () => {
           className={mobile ? styles.box1Mobile : styles.boxNotShow}
           title="Tecnólogo em Redes de Computadores"
         >
-          <h3>Tecnólogo em Redes de Computado...</h3>
+          <h3>Tecnólogo em Redes de Computadores</h3>
           <div className={styles.imgEdados}>
             <img src={fumecM} alt="Fumec" />
             <div className={styles.dados}>
@@ -134,7 +134,7 @@ const Formacao = () => {
           className={mobile ? styles.box1Mobile : styles.boxNotShow}
           title="Bacharel em Engenharia Bioenergética"
         >
-          <h3>Bacharel em Engenharia Bioenergé...</h3>
+          <h3>Bacharel em Engenharia Bioenergética</h3>
           <div className={styles.imgEdados}>
             <img src={fumecM} alt="Fumec" />
             <div className={styles.dados}>
@@ -148,7 +148,7 @@ const Formacao = () => {
         </div>
       </span>
 
-      <h6 className={styles.verTodos} onClick={() => setAccordeon(!accordeon)}>
+      <h6 className={accordeon ? styles.verTodosUp : styles.verTodos} onClick={() => setAccordeon(!accordeon)}>
         Ver todos
       </h6>
     </section>

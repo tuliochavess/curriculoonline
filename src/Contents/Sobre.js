@@ -43,7 +43,7 @@ const Sobre = () => {
             </p>
           </span>
           <h6
-            className={styles.lerTudo}
+            className={accordeon ? styles.lerTudoUp : styles.lerTudo}
             onClick={() => setAccordeon(!accordeon)}
           >
             Ler tudo

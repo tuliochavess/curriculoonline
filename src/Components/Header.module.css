@@ -76,7 +76,7 @@ ul.isMobile li a {
   font-style: normal;
   font-size: 14px;
   line-height: 16px;
-  border: 1px solid rgba(91, 152, 240, 0.64);;
+  border: 1px solid rgba(91, 152, 240, 0.64);
   padding: 20px 28px;
   font-family: var(--type-first);
   display: block;
@@ -91,22 +91,21 @@ button {
 }
 
 button.mobile {
-  width: 40px;
-  height: 40px;
+  width: 24px;
+  height: 24px;
   padding: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid transparent;
-  cursor: pointer;
+  border: 1px solid #fbfbff;
+  background-color: #fbfbff;
 }
 
 button.mobile::after {
   content: "";
   display: block;
-  width: 1.2rem;
+  width: 24px;
   height: 2px;
   background: #004dbb;
-  border-radius: 2px;
   box-shadow: 0 6px #004dbb, 0 -6px #004dbb;
 }

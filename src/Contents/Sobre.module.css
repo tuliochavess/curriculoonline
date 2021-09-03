@@ -135,9 +135,11 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
+  margin-bottom: -12px;
 }
 
-.lerTudo {
+.lerTudo,
+.lerTudoUp {
   font-family: var(--type-second);
   font-style: normal;
   font-weight: bold;
@@ -146,8 +148,13 @@
   color: #5b98f0;
 }
 
-.lerTudo::after {
+.lerTudoUp::after {
   content: url('../Assets/caret-down.svg');
+  margin-left: 8px;
+}
+
+.lerTudo::after {
+  content: url('../Assets/caret-up.svg');
   margin-left: 8px;
 }
 
@@ -203,7 +210,7 @@
 }
 
 .fixMargin1 {
-  margin-top: 20px !important;
+  margin-top: 6px !important;
 }
 
 .fixMargin {
