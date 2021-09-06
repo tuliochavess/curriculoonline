@@ -88,7 +88,7 @@ const Projetos = () => {
           className={accordeon ? styles.verTodosUp : styles.verTodos}
           onClick={() => setAccordeon(!accordeon)}
         >
-          Ver todos
+          {accordeon ? "Ver menos" : "Ver todos"}
         </h5>
       </div>
       <h6 className={styles.interface}>Interfaces Desktop</h6>
@@ -207,7 +207,7 @@ const Projetos = () => {
           className={accordeonDes ? styles.verTodosUp : styles.verTodos}
           onClick={() => setAccordeonDes(!accordeonDes)}
         >
-          Ver todos
+          {accordeonDes ? "Ver menos" : "Ver todos"}
         </h5>
       </div>
       <h6 className={styles.interface}>Interfaces Mobile</h6>
@@ -302,7 +302,7 @@ const Projetos = () => {
           className={accordeonMob ? styles.verTodosUp : styles.verTodos}
           onClick={() => setAccordeonMob(!accordeonMob)}
         >
-          Ver todos
+          {accordeonMob ? "Ver menos" : "Ver todos"}
         </h5>
       </div>
     </section>

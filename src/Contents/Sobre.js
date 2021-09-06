@@ -46,7 +46,7 @@ const Sobre = () => {
             className={accordeon ? styles.lerTudoUp : styles.lerTudo}
             onClick={() => setAccordeon(!accordeon)}
           >
-            Ler tudo
+            {accordeon ? "Ler tudo" : "Ler menos"}
           </h6>
         </div>
         <div className={mobile ? styles.idiomaMobile : styles.idioma}>
@@ -66,7 +66,10 @@ const Sobre = () => {
             <img src={email} alt="email" />
             tuliochavess@gmail.com
           </a>
-          <a href="https://drive.google.com/file/d/12n4RbXTZfdHL9ztw-OIG-diSpVDR9yXP/view?usp=sharing" target="blank">
+          <a
+            href="https://drive.google.com/file/d/12n4RbXTZfdHL9ztw-OIG-diSpVDR9yXP/view?usp=sharing"
+            target="blank"
+          >
             <img src={curriculo} alt="curriculo" />
             Currículo
           </a>

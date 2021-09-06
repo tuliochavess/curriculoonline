@@ -23,7 +23,10 @@ const Cursos = () => {
         className={mobile ? styles.boxNotShow : styles.box1}
         onClick={(e) => {
           e.preventDefault();
-          window.open("https://www.origamid.com/certificate/76dd2043/", "_blank");
+          window.open(
+            "https://www.origamid.com/certificate/76dd2043/",
+            "_blank"
+          );
         }}
       >
         <div className={styles.logoFaculdade}>
@@ -44,7 +47,10 @@ const Cursos = () => {
         className={mobile ? styles.box1Mobile : styles.boxNotShow}
         onClick={(e) => {
           e.preventDefault();
-          window.open("https://www.origamid.com/certificate/76dd2043/", "_blank");
+          window.open(
+            "https://www.origamid.com/certificate/76dd2043/",
+            "_blank"
+          );
         }}
       >
         <h3>React Completo</h3>
@@ -65,7 +71,10 @@ const Cursos = () => {
         className={mobile ? styles.boxNotShow : styles.box2}
         onClick={(e) => {
           e.preventDefault();
-          window.open("https://www.origamid.com/certificate/280d68ea/", "_blank");
+          window.open(
+            "https://www.origamid.com/certificate/280d68ea/",
+            "_blank"
+          );
         }}
       >
         <div className={styles.logoFaculdade}>
@@ -86,7 +95,10 @@ const Cursos = () => {
         className={mobile ? styles.box1Mobile : styles.boxNotShow}
         onClick={(e) => {
           e.preventDefault();
-          window.open("https://www.origamid.com/certificate/280d68ea/", "_blank");
+          window.open(
+            "https://www.origamid.com/certificate/280d68ea/",
+            "_blank"
+          );
         }}
       >
         <h3>JavaScript Completo ES6</h3>
@@ -107,7 +119,10 @@ const Cursos = () => {
         className={mobile ? styles.boxNotShow : styles.box3}
         onClick={(e) => {
           e.preventDefault();
-          window.open("https://www.origamid.com/certificate/5efe5b97/", "_blank");
+          window.open(
+            "https://www.origamid.com/certificate/5efe5b97/",
+            "_blank"
+          );
         }}
       >
         <div className={styles.logoFaculdade}>
@@ -128,7 +143,10 @@ const Cursos = () => {
         className={mobile ? styles.box1Mobile : styles.boxNotShow}
         onClick={(e) => {
           e.preventDefault();
-          window.open("https://www.origamid.com/certificate/5efe5b97/", "_blank");
+          window.open(
+            "https://www.origamid.com/certificate/5efe5b97/",
+            "_blank"
+          );
         }}
       >
         <h3>CSS Grid Layout</h3>
@@ -149,7 +167,10 @@ const Cursos = () => {
         className={mobile ? styles.boxNotShow : styles.box4}
         onClick={(e) => {
           e.preventDefault();
-          window.open("https://www.udemy.com/certificate/UC-466c2879-3626-4a74-933e-ca32b6dfd10f/", "_blank");
+          window.open(
+            "https://www.udemy.com/certificate/UC-466c2879-3626-4a74-933e-ca32b6dfd10f/",
+            "_blank"
+          );
         }}
         title="Understanding TypeScript 2021 Edition"
       >
@@ -171,7 +192,10 @@ const Cursos = () => {
         className={mobile ? styles.box1Mobile : styles.boxNotShow}
         onClick={(e) => {
           e.preventDefault();
-          window.open("https://www.udemy.com/certificate/UC-466c2879-3626-4a74-933e-ca32b6dfd10f/", "_blank");
+          window.open(
+            "https://www.udemy.com/certificate/UC-466c2879-3626-4a74-933e-ca32b6dfd10f/",
+            "_blank"
+          );
         }}
         title="Understanding TypeScript 2021 Edition"
       >
@@ -197,7 +221,10 @@ const Cursos = () => {
           className={mobile ? styles.boxNotShow : styles.box3}
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://www.origamid.com/certificate/9d20ae29/", "_blank");
+            window.open(
+              "https://www.origamid.com/certificate/9d20ae29/",
+              "_blank"
+            );
           }}
         >
           <div className={styles.logoFaculdade}>
@@ -218,7 +245,10 @@ const Cursos = () => {
           className={mobile ? styles.box1Mobile : styles.boxNotShow}
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://www.origamid.com/certificate/9d20ae29/", "_blank");
+            window.open(
+              "https://www.origamid.com/certificate/9d20ae29/",
+              "_blank"
+            );
           }}
         >
           <h3>Automação Front End com NPM</h3>
@@ -239,7 +269,10 @@ const Cursos = () => {
           className={mobile ? styles.boxNotShow : styles.box4}
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://www.udemy.com/certificate/UC-fa835458-6835-4c24-a953-b6856bf654fb/", "_blank");
+            window.open(
+              "https://www.udemy.com/certificate/UC-fa835458-6835-4c24-a953-b6856bf654fb/",
+              "_blank"
+            );
           }}
           title="Microsoft SharePoint para Administradores"
         >
@@ -261,7 +294,10 @@ const Cursos = () => {
           className={mobile ? styles.box1Mobile : styles.boxNotShow}
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://www.udemy.com/certificate/UC-fa835458-6835-4c24-a953-b6856bf654fb/", "_blank");
+            window.open(
+              "https://www.udemy.com/certificate/UC-fa835458-6835-4c24-a953-b6856bf654fb/",
+              "_blank"
+            );
           }}
           title="Microsoft SharePoint para Administradores"
         >
@@ -283,7 +319,10 @@ const Cursos = () => {
           className={mobile ? styles.boxNotShow : styles.box3}
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://www.origamid.com/certificate/087a7d94/", "_blank");
+            window.open(
+              "https://www.origamid.com/certificate/087a7d94/",
+              "_blank"
+            );
           }}
         >
           <div className={styles.logoFaculdade}>
@@ -304,7 +343,10 @@ const Cursos = () => {
           className={mobile ? styles.box1Mobile : styles.boxNotShow}
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://www.origamid.com/certificate/087a7d94/", "_blank");
+            window.open(
+              "https://www.origamid.com/certificate/087a7d94/",
+              "_blank"
+            );
           }}
         >
           <h3>CSS com SASS </h3>
@@ -325,7 +367,10 @@ const Cursos = () => {
           className={mobile ? styles.boxNotShow : styles.box4}
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://www.origamid.com/certificate/13399574/", "_blank");
+            window.open(
+              "https://www.origamid.com/certificate/13399574/",
+              "_blank"
+            );
           }}
         >
           <div className={styles.logoFaculdade}>
@@ -346,7 +391,10 @@ const Cursos = () => {
           className={mobile ? styles.box1Mobile : styles.boxNotShow}
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://www.origamid.com/certificate/13399574/", "_blank");
+            window.open(
+              "https://www.origamid.com/certificate/13399574/",
+              "_blank"
+            );
           }}
         >
           <h3>WordPress Como CMS </h3>
@@ -367,7 +415,10 @@ const Cursos = () => {
           className={mobile ? styles.boxNotShow : styles.box3}
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://www.origamid.com/certificate/2fddd138/", "_blank");
+            window.open(
+              "https://www.origamid.com/certificate/2fddd138/",
+              "_blank"
+            );
           }}
         >
           <div className={styles.logoFaculdade}>
@@ -388,7 +439,10 @@ const Cursos = () => {
           className={mobile ? styles.box1Mobile : styles.boxNotShow}
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://www.origamid.com/certificate/2fddd138/", "_blank");
+            window.open(
+              "https://www.origamid.com/certificate/2fddd138/",
+              "_blank"
+            );
           }}
         >
           <h3>WooCommerce Como CMS</h3>
@@ -409,7 +463,10 @@ const Cursos = () => {
           className={mobile ? styles.boxNotShow : styles.box4}
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://www.udemy.com/certificate/UC-b500c752-b3af-4b06-ab6e-efdbc2409406/", "_blank");
+            window.open(
+              "https://www.udemy.com/certificate/UC-b500c752-b3af-4b06-ab6e-efdbc2409406/",
+              "_blank"
+            );
           }}
           title="Wordpress for Beginners Master Wordpress Quickly"
         >
@@ -431,7 +488,10 @@ const Cursos = () => {
           className={mobile ? styles.box1Mobile : styles.boxNotShow}
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://www.udemy.com/certificate/UC-b500c752-b3af-4b06-ab6e-efdbc2409406/", "_blank");
+            window.open(
+              "https://www.udemy.com/certificate/UC-b500c752-b3af-4b06-ab6e-efdbc2409406/",
+              "_blank"
+            );
           }}
           title="Wordpress for Beginners Master Wordpress Quickly"
         >
@@ -453,7 +513,10 @@ const Cursos = () => {
           className={mobile ? styles.boxNotShow : styles.box3}
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://www.udemy.com/certificate/UC-12e4067e-444d-4039-9945-beda0ecb2f29/", "_blank");
+            window.open(
+              "https://www.udemy.com/certificate/UC-12e4067e-444d-4039-9945-beda0ecb2f29/",
+              "_blank"
+            );
           }}
           title="Curso Desenvolvedor Web Completo + 10 projetos"
         >
@@ -475,7 +538,10 @@ const Cursos = () => {
           className={mobile ? styles.box1Mobile : styles.boxNotShow}
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://www.udemy.com/certificate/UC-12e4067e-444d-4039-9945-beda0ecb2f29/", "_blank");
+            window.open(
+              "https://www.udemy.com/certificate/UC-12e4067e-444d-4039-9945-beda0ecb2f29/",
+              "_blank"
+            );
           }}
           title="Curso Desenvolvedor Web Completo + 10 projetos"
         >
@@ -494,8 +560,11 @@ const Cursos = () => {
       </span>
       {/* aqui termina o span */}
 
-      <h5 className={accordeon ? styles.verTodosUp : styles.verTodos} onClick={() => setAccordeon(!accordeon)}>
-        Ver todos
+      <h5
+        className={accordeon ? styles.verTodosUp : styles.verTodos}
+        onClick={() => setAccordeon(!accordeon)}
+      >
+        {accordeon ? "Ver menos" : "Ver todos"}
       </h5>
       <h6 className={mobile ? styles.h6MobileDesi : ""}>Design</h6>
 
@@ -504,7 +573,10 @@ const Cursos = () => {
         className={mobile ? styles.boxNotShow : styles.box1}
         onClick={(e) => {
           e.preventDefault();
-          window.open("https://www.origamid.com/certificate/cdaa758b/", "_blank");
+          window.open(
+            "https://www.origamid.com/certificate/cdaa758b/",
+            "_blank"
+          );
         }}
       >
         <div className={styles.logoFaculdade}>
@@ -525,7 +597,10 @@ const Cursos = () => {
         className={mobile ? styles.box1Mobile : styles.boxNotShow}
         onClick={(e) => {
           e.preventDefault();
-          window.open("https://www.origamid.com/certificate/cdaa758b/", "_blank");
+          window.open(
+            "https://www.origamid.com/certificate/cdaa758b/",
+            "_blank"
+          );
         }}
       >
         <h3>UI design Avançado</h3>
@@ -546,7 +621,10 @@ const Cursos = () => {
         className={mobile ? styles.boxNotShow : styles.box2}
         onClick={(e) => {
           e.preventDefault();
-          window.open("https://www.origamid.com/certificate/892d21ef/", "_blank");
+          window.open(
+            "https://www.origamid.com/certificate/892d21ef/",
+            "_blank"
+          );
         }}
       >
         <div className={styles.logoFaculdade}>
@@ -567,7 +645,10 @@ const Cursos = () => {
         className={mobile ? styles.box1Mobile : styles.boxNotShow}
         onClick={(e) => {
           e.preventDefault();
-          window.open("https://www.origamid.com/certificate/892d21ef/", "_blank");
+          window.open(
+            "https://www.origamid.com/certificate/892d21ef/",
+            "_blank"
+          );
         }}
       >
         <h3>UX Design Heurísticas</h3>
@@ -588,7 +669,10 @@ const Cursos = () => {
         className={mobile ? styles.boxNotShow : styles.box3}
         onClick={(e) => {
           e.preventDefault();
-          window.open("https://www.origamid.com/certificate/56a192d0/", "_blank");
+          window.open(
+            "https://www.origamid.com/certificate/56a192d0/",
+            "_blank"
+          );
         }}
       >
         <div className={styles.logoFaculdade}>
@@ -609,7 +693,10 @@ const Cursos = () => {
         className={mobile ? styles.box1Mobile : styles.boxNotShow}
         onClick={(e) => {
           e.preventDefault();
-          window.open("https://www.origamid.com/certificate/56a192d0/", "_blank");
+          window.open(
+            "https://www.origamid.com/certificate/56a192d0/",
+            "_blank"
+          );
         }}
       >
         <h3>Tipografia Avançada</h3>
@@ -630,7 +717,10 @@ const Cursos = () => {
         className={mobile ? styles.boxNotShow : styles.box4}
         onClick={(e) => {
           e.preventDefault();
-          window.open("https://www.codecademy.com/profiles/tuliochavess/certificates/0a6884fad1dbf4afe5df084d2ec1e7c3", "_blank");
+          window.open(
+            "https://www.codecademy.com/profiles/tuliochavess/certificates/0a6884fad1dbf4afe5df084d2ec1e7c3",
+            "_blank"
+          );
         }}
       >
         <div className={styles.logoFaculdade}>
@@ -651,7 +741,10 @@ const Cursos = () => {
         className={mobile ? styles.box1Mobile : styles.boxNotShow}
         onClick={(e) => {
           e.preventDefault();
-          window.open("https://www.codecademy.com/profiles/tuliochavess/certificates/0a6884fad1dbf4afe5df084d2ec1e7c3", "_blank");
+          window.open(
+            "https://www.codecademy.com/profiles/tuliochavess/certificates/0a6884fad1dbf4afe5df084d2ec1e7c3",
+            "_blank"
+          );
         }}
       >
         <h3>Learn Color Design Course</h3>
@@ -677,7 +770,10 @@ const Cursos = () => {
           className={mobile ? styles.boxNotShow : styles.box3}
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://www.udemy.com/certificate/UC-2a26a6db-dd68-4e0b-ad9a-008be0c10729/", "_blank");
+            window.open(
+              "https://www.udemy.com/certificate/UC-2a26a6db-dd68-4e0b-ad9a-008be0c10729/",
+              "_blank"
+            );
           }}
         >
           <div className={styles.logoFaculdade}>
@@ -698,7 +794,10 @@ const Cursos = () => {
           className={mobile ? styles.box1Mobile : styles.boxNotShow}
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://www.udemy.com/certificate/UC-2a26a6db-dd68-4e0b-ad9a-008be0c10729/", "_blank");
+            window.open(
+              "https://www.udemy.com/certificate/UC-2a26a6db-dd68-4e0b-ad9a-008be0c10729/",
+              "_blank"
+            );
           }}
         >
           <h3>Learn Figma UI/UX Design Essential Training</h3>
@@ -716,10 +815,12 @@ const Cursos = () => {
       </span>
 
       <h5
-        className={accordeonDes ? styles.verTodosUltimoUp : styles.verTodosUltimo}
+        className={
+          accordeonDes ? styles.verTodosUltimoUp : styles.verTodosUltimo
+        }
         onClick={() => setAccordeonDes(!accordeonDes)}
       >
-        Ver todos
+        {accordeonDes ? "Ver menos" : "Ver todos"}
       </h5>
     </section>
   );

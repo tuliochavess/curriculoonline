@@ -148,8 +148,11 @@ const Formacao = () => {
         </div>
       </span>
 
-      <h6 className={accordeon ? styles.verTodosUp : styles.verTodos} onClick={() => setAccordeon(!accordeon)}>
-        Ver todos
+      <h6
+        className={accordeon ? styles.verTodosUp : styles.verTodos}
+        onClick={() => setAccordeon(!accordeon)}
+      >
+        {accordeon ? "Ver menos" : "Ver todos"}
       </h6>
     </section>
   );
