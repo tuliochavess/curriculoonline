@@ -111,7 +111,7 @@ const Projetos = () => {
         </a>
         {/* Desktop imagem 3 */}
         <a
-          href="https://www.figma.com/proto/QwclppKTQx6EDxFysARlFA/GGN?page-id=0%3A1&node-id=19%3A2&viewport=313%2C48%2C0.15&scaling=min-zoom"
+          href="https://www.figma.com/proto/5CYv7P046qJ6TSrWCp3roK/GGN-Copy?page-id=0%3A1&node-id=19%3A2&viewport=313%2C48%2C0.13&scaling=min-zoom"
           target="blank"
           className={styles.img3}
         >
@@ -304,6 +304,7 @@ const Projetos = () => {
         >
           {accordeonMob ? "Ver menos" : "Ver todos"}
         </h5>
+        <div className={styles.separa}></div>
       </div>
     </section>
   );

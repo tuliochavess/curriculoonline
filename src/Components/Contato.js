@@ -56,7 +56,7 @@ const Contato = () => {
       </div>
       <div className={styles.secondBox}>
         <a
-          href="https://drive.google.com/file/d/12n4RbXTZfdHL9ztw-OIG-diSpVDR9yXP/view?usp=sharing"
+          href="https://drive.google.com/file/d/1_4k-q9TW9Bvh9X9fb2Zlbf1kevz9G_89/view?usp=sharing"
           className={styles.curriculo}
           target="blank"
         >

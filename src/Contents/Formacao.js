@@ -22,7 +22,7 @@ const Formacao = () => {
           <img src={unopar} alt="UNOPAR" />
         </div>
         <div className={styles.infoFaculdade}>
-          <h3>Tecnólogo em Análise e Desenvolvi...</h3>
+          <h3>Tecnólogo em Análise e Desenvol...</h3>
           <div className={styles.dataFaculdade}>
             <p className={styles.nome}>UNOPAR</p>
             <p className={styles.tempo}>Cursando - 5º período</p>
@@ -53,7 +53,7 @@ const Formacao = () => {
           <img src={fumec} alt="FUMEC" />
         </div>
         <div className={styles.infoFaculdade}>
-          <h3>Bacharel em Ciência da Computação</h3>
+          <h3>Bacharel em Ciência da Computaç...</h3>
           <div className={styles.dataFaculdade}>
             <p className={styles.nome}>FUMEC</p>
             <p className={styles.tempo}>Trancada - 5º período</p>
@@ -87,7 +87,7 @@ const Formacao = () => {
             <img src={fumec} alt="FUMEC" />
           </div>
           <div className={styles.infoFaculdade}>
-            <h3>Tecnólogo em Redes de Computado...</h3>
+            <h3>Tecnólogo em Redes de Computad...</h3>
             <div className={styles.dataFaculdade}>
               <p className={styles.nome}>FUMEC</p>
               <p className={styles.tempo}>Trancada - 2º período</p>
@@ -121,7 +121,7 @@ const Formacao = () => {
             <img src={fumec} alt="FUMEC" />
           </div>
           <div className={styles.infoFaculdade}>
-            <h3>Bacharel em Engenharia Bioenergé...</h3>
+            <h3>Bacharel em Engenharia Bioenerg...</h3>
             <div className={styles.dataFaculdade}>
               <p className={styles.nome}>FUMEC</p>
               <p className={styles.tempo}>Trancada - 7º período</p>

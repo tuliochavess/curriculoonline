@@ -35,7 +35,7 @@
 }
 
 .projetos img:hover {
-  border: 2px solid rgba(91, 152, 240, 0.64);
+  border: 1px solid rgba(91, 152, 240, 0.64);
   box-sizing: border-box;
 }
 
@@ -73,6 +73,10 @@
   color: #5b98f0;
   grid-column: 1 / 13;
   cursor: pointer;
+}
+
+.projetos .separa {
+  margin-bottom: 52px;
 }
 
 .projetos .verTodos::after {
@@ -127,5 +131,9 @@
 
   .projetos .interface {
     margin-top: 32px;
+  }
+
+  .projetos .separa {
+    display: none;
   }
 }

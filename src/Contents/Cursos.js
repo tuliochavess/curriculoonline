@@ -755,7 +755,7 @@ const Cursos = () => {
               <p className={styles.nome}>Codecademy</p>
               <p className={styles.data}>08/2021</p>
             </div>
-            <p className={styles.tempo}>08 horas</p>
+            <p className={styles.tempo}>03 horas</p>
           </div>
         </div>
       </div>

@@ -103,7 +103,7 @@ e responsável pelo comercial e gestão do operacional da empresa."
             Startup Marketplace de anúncio e venda de artigos moda, arte e
             decoração dentro de BH e região. Fui fundador e responsável...
           </p>
-          <p className={styles.data}>02/2015 - 03/2026</p>
+          <p className={styles.data}>02/2015 - 03/2016</p>
         </div>
 
         <div
@@ -131,7 +131,7 @@ realizando manutenções técnicas relativas a Hardware e Software."
             Suporte a alunos e professores nos laboratórios de informática da
             unidade, zelando pelos equipamentos e realizando manutenções ...
           </p>
-          <p className={styles.data}>06/2013 - 06/2024</p>
+          <p className={styles.data}>06/2013 - 06/2014</p>
         </div>
       </span>
 
