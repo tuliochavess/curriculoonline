@@ -37,6 +37,7 @@
 .projetos img:hover {
   border: 1px solid rgba(91, 152, 240, 0.64);
   box-sizing: border-box;
+  box-shadow: 0px 0px 0px 1px rgba(91, 152, 240, 0.64);
 }
 
 .projetos .boxDevProjetos .img1 {
