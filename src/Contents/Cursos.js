@@ -377,9 +377,9 @@ const Cursos = () => {
             <img src={origamid} alt="Udemy" />
           </div>
           <div className={styles.infoFaculdade}>
-            <h3>WordPress Como CMS </h3>
+            <h3>WordPress Como CMS</h3>
             <div className={styles.dataFaculdade}>
-              <p className={styles.nome}>Udemy</p>
+              <p className={styles.nome}>Origamid</p>
               <p className={styles.tempo}>18 horas</p>
               <p className={styles.data}>12/2020</p>
             </div>
@@ -397,12 +397,12 @@ const Cursos = () => {
             );
           }}
         >
-          <h3>WordPress Como CMS </h3>
+          <h3>WordPress Como CMS</h3>
           <div className={styles.imgEdados}>
-            <img src={origamidM} alt="Udemy" />
+            <img src={origamidM} alt="Origamid" />
             <div className={styles.dados}>
               <div className={styles.inline}>
-                <p className={styles.nome}>Udemy</p>
+                <p className={styles.nome}>Origamid</p>
                 <p className={styles.data}>12/2020</p>
               </div>
               <p className={styles.tempo}>18 horas</p>
@@ -554,6 +554,54 @@ const Cursos = () => {
                 <p className={styles.data}>10/2020</p>
               </div>
               <p className={styles.tempo}>52 horas</p>
+            </div>
+          </div>
+        </div>
+
+        {/* decimo segundo box desktop */}
+        <div
+          className={mobile ? styles.boxNotShow : styles.box4}
+          onClick={(e) => {
+            e.preventDefault();
+            window.open(
+              "https://www.origamid.com/certificate/65fd30d8/",
+              "_blank"
+            );
+          }}
+        >
+          <div className={styles.logoFaculdade}>
+            <img src={origamid} alt="Origamid" />
+          </div>
+          <div className={styles.infoFaculdade}>
+            <h3>CSS Flexbox</h3>
+            <div className={styles.dataFaculdade}>
+              <p className={styles.nome}>Origamid</p>
+              <p className={styles.tempo}>06 horas</p>
+              <p className={styles.data}>09/2021</p>
+            </div>
+          </div>
+        </div>
+
+        {/* decimo segundo box mobile */}
+        <div
+          className={mobile ? styles.box1Mobile : styles.boxNotShow}
+          onClick={(e) => {
+            e.preventDefault();
+            window.open(
+              "https://www.origamid.com/certificate/65fd30d8/",
+              "_blank"
+            );
+          }}
+        >
+          <h3>CSS Flexbox</h3>
+          <div className={styles.imgEdados}>
+            <img src={origamidM} alt="Origamid" />
+            <div className={styles.dados}>
+              <div className={styles.inline}>
+                <p className={styles.nome}>Origamid</p>
+                <p className={styles.data}>09/2021</p>
+              </div>
+              <p className={styles.tempo}>06 horas</p>
             </div>
           </div>
         </div>
@@ -718,20 +766,20 @@ const Cursos = () => {
         onClick={(e) => {
           e.preventDefault();
           window.open(
-            "https://www.codecademy.com/profiles/tuliochavess/certificates/0a6884fad1dbf4afe5df084d2ec1e7c3",
+            "https://www.origamid.com/certificate/c0bee4cb/",
             "_blank"
           );
         }}
       >
         <div className={styles.logoFaculdade}>
-          <img src={code} alt="Codecademy" />
+          <img src={origamid} alt="Origamid" />
         </div>
         <div className={styles.infoFaculdade}>
-          <h3>Learn Color Design Course</h3>
+          <h3>Web Design Completo</h3>
           <div className={styles.dataFaculdade}>
-            <p className={styles.nome}>Codecademy</p>
-            <p className={styles.tempo}>03 horas</p>
-            <p className={styles.data}>08/2021</p>
+            <p className={styles.nome}>Origamid</p>
+            <p className={styles.tempo}>44 horas</p>
+            <p className={styles.data}>09/2021</p>
           </div>
         </div>
       </div>
@@ -742,20 +790,20 @@ const Cursos = () => {
         onClick={(e) => {
           e.preventDefault();
           window.open(
-            "https://www.codecademy.com/profiles/tuliochavess/certificates/0a6884fad1dbf4afe5df084d2ec1e7c3",
+            "https://www.origamid.com/certificate/c0bee4cb/",
             "_blank"
           );
         }}
       >
-        <h3>Learn Color Design Course</h3>
+        <h3>Web Design Completo</h3>
         <div className={styles.imgEdados}>
-          <img src={codeM} alt="Udemy" />
+          <img src={origamidM} alt="Origamid" />
           <div className={styles.dados}>
             <div className={styles.inline}>
-              <p className={styles.nome}>Codecademy</p>
-              <p className={styles.data}>08/2021</p>
+              <p className={styles.nome}>Origamid</p>
+              <p className={styles.data}>09/2021</p>
             </div>
-            <p className={styles.tempo}>03 horas</p>
+            <p className={styles.tempo}>44 horas</p>
           </div>
         </div>
       </div>
@@ -809,6 +857,54 @@ const Cursos = () => {
                 <p className={styles.data}>08/2020</p>
               </div>
               <p className={styles.tempo}>04 horas</p>
+            </div>
+          </div>
+        </div>
+
+        {/* sexto box desktop */}
+        <div
+          className={mobile ? styles.boxNotShow : styles.box4}
+          onClick={(e) => {
+            e.preventDefault();
+            window.open(
+              "https://www.codecademy.com/profiles/tuliochavess/certificates/0a6884fad1dbf4afe5df084d2ec1e7c3",
+              "_blank"
+            );
+          }}
+        >
+          <div className={styles.logoFaculdade}>
+            <img src={code} alt="Codecademy" />
+          </div>
+          <div className={styles.infoFaculdade}>
+            <h3>Learn Color Design Course</h3>
+            <div className={styles.dataFaculdade}>
+              <p className={styles.nome}>Codecademy</p>
+              <p className={styles.tempo}>03 horas</p>
+              <p className={styles.data}>08/2021</p>
+            </div>
+          </div>
+        </div>
+
+        {/* sexto box mobile */}
+        <div
+          className={mobile ? styles.box1Mobile : styles.boxNotShow}
+          onClick={(e) => {
+            e.preventDefault();
+            window.open(
+              "https://www.codecademy.com/profiles/tuliochavess/certificates/0a6884fad1dbf4afe5df084d2ec1e7c3",
+              "_blank"
+            );
+          }}
+        >
+          <h3>Learn Color Design Course</h3>
+          <div className={styles.imgEdados}>
+            <img src={codeM} alt="Udemy" />
+            <div className={styles.dados}>
+              <div className={styles.inline}>
+                <p className={styles.nome}>Codecademy</p>
+                <p className={styles.data}>08/2021</p>
+              </div>
+              <p className={styles.tempo}>03 horas</p>
             </div>
           </div>
         </div>
